@@ -1,0 +1,107 @@
+html{
+    font-family:'Montserrat', sans-serif; ;
+}
+.body{
+    position: absolute;
+    left:25%;
+    top:20%;
+    width: 50%;
+    min-width: 300px;
+    max-width: 540px;
+}
+.title h3{
+    color:#fff;
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+}
+.main{
+    
+    background-color: #fff;
+    text-decoration: none;
+    border-radius: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;;
+}
+
+.item{
+    padding: 5%;
+    border-bottom: beige 1px solid;
+    box-sizing: border-box;
+    font-size: 1rem;
+    padding-top:18px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.checkbox{
+    width: 20px;
+    height: 20px;
+    margin-right: 6%;
+}
+.edit{
+    text-decoration: none;
+    display: block;
+}
+.edit-content{
+    text-align: center;
+    text-decoration: none;
+}
+.edit-content button{
+    font-size: 1rem;
+    background-color:#6a5acd ;
+    color: white;
+    height: 30px;
+    
+    border:0;
+    border-radius: 10px;
+    text-align: center;
+}
+.edit-content input{
+    height: 30px;
+    font-size: 16px;
+    width: 65%;
+    border-radius: 8px;
+    box-shadow: none;
+    border:1px solid lightgray;
+    padding-left: 15px;
+}
+.add{
+    margin-top: 30px;
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;;
+}
+.add input{
+    width: 60%;
+    height: 65px;
+    border: none;
+    width: 70%;
+    font-size: 18px;
+    padding-left: 20px;
+}
+.add input:focus{
+    outline: none;
+}
+input:checked+p {
+    text-decoration: line-through;
+    text-decoration-color: #A683E3;
+  }
+p {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 200;
+    color: #00204a;
+  }
+.add button{
+    border: none;
+    font-size: 20px;
+    background-color: transparent;
+    height: 66px;
+    border-radius: 15px;
+    color:purple;
+    padding:10px;
+    cursor:pointer;
+    width: 20%;
+    
+}
